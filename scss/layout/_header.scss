@@ -1,0 +1,37 @@
+.header {
+  background-color: $color-blue;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__img__logo {
+}
+.header__nav {
+}
+.nav__list {
+  display: flex;
+  gap: 3rem;
+}
+.list__item {
+}
+.list__link {
+  font-size: 2rem;
+  color: $color-white;
+}
+
+.list__link:hover {
+  color: $color-yellow;
+}
+
+.header__btn {
+  //   font-size: 1.3rem;
+}
+
+.header__btn__link {
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: $color-gree;
+}
