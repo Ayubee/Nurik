@@ -54,3 +54,10 @@ main {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+@media screen and (max-width: 1600px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
