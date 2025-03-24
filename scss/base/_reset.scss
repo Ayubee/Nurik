@@ -38,7 +38,7 @@ body {
   height: 100%;
   // font-size: ;
   font-family: "Grava", Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   // line-height: ;
 }
 
@@ -55,7 +55,7 @@ main {
   padding-right: 50px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1150px) {
   .container {
     padding-left: 30px;
     padding-right: 30px;

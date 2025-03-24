@@ -1,0 +1,51 @@
+.hero {
+  background-image: linear-gradient(rgba(8, 29, 31, 0.7), rgba(8, 29, 31, 0.7)),
+    url("../src/images/alyasir-photo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__title {
+  width: 100%;
+  // max-width: 1000px;
+  font-size: 4.8rem;
+  font-weight: 300;
+  text-align: center;
+  color: $color-white;
+  line-height: 70px;
+  margin-top: 30rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .hero {
+    background-position: center left -779px;
+    background-size: 300%;
+  }
+  .hero__title {
+    width: 100%;
+    max-width: 550px;
+    font-size: 3.8rem;
+    line-height: 55px;
+  }
+  .br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    background-position: center left -535px;
+    background-size: 350%;
+  }
+  .hero__title {
+    font-size: 2.8rem;
+    line-height: 40px;
+  }
+}

@@ -2,6 +2,13 @@
   font-display: swap;
   font-family: "Grava";
   font-style: normal;
+  font-weight: 300;
+  src: url("../src/fonts/Grava Display Light.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Grava";
+  font-style: normal;
   font-weight: 400;
   src: url("../src/fonts/Grava Display Medium.woff2") format("woff2");
 }
