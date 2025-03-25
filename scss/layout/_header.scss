@@ -43,6 +43,10 @@
   display: none;
 }
 
+.nav__list__2 {
+  display: none;
+}
+
 @media screen and (max-width: 1150px) {
   .nav {
     position: relative;
@@ -55,6 +59,20 @@
   }
 
   .nav__list {
+    // width: 30%;
+    // height: 100%;
+    // position: absolute;
+    // padding-top: 100px;
+    // padding-bottom: 100px;
+    // padding-left: 30px;
+    // padding-right: 30px;
+    // top: 0;
+    // left: 0;
+    // flex-direction: column;
+    // background-color: $color-blue;
+    display: none;
+  }
+  .nav__list__2 {
     width: 30%;
     height: 100%;
     position: absolute;
@@ -65,9 +83,15 @@
     top: 0;
     left: 0;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     background-color: $color-blue;
-    display: none;
   }
+
+  .list__item {
+  }
+
   .none {
     display: none;
   }
