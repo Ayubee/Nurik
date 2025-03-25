@@ -46,6 +46,10 @@ main {
   flex-grow: 1;
 }
 
+.active {
+  color: $color-yellow;
+}
+
 .container {
   width: 100%;
   max-width: 1400px; /* you need change it  */
