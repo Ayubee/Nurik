@@ -1,0 +1,51 @@
+.footer {
+  background-color: $color-blue;
+}
+.footer__container {
+  padding-top: 10rem;
+  padding-bottom: 10.1rem;
+}
+
+.footer__box {
+  display: flex;
+  gap: 5.5rem;
+}
+.footer__logo__img {
+}
+.footer__box__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5.3rem;
+}
+.container__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.item {
+}
+.item__title {
+  margin-bottom: 2.1rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: $color-white;
+  font-family: "Grava", Arial, Helvetica, sans-serif;
+}
+.item__link {
+}
+.box__list {
+}
+.box__list__item {
+}
+.box__list__item__link {
+}
+.social__list {
+}
+.social__item {
+}
+.social__link {
+}
+.social__img {
+}
+.divider {
+}
