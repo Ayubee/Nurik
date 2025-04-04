@@ -2,8 +2,10 @@
   background-color: $color-blue;
 }
 .footer__container {
+  display: flex;
+  flex-direction: column;
   padding-top: 10rem;
-  padding-bottom: 10.1rem;
+  padding-bottom: 5.1rem;
 }
 
 .footer__box {
@@ -26,20 +28,27 @@
 }
 .item__title {
   margin-bottom: 2.1rem;
-  font-weight: 500;
   font-size: 1.8rem;
   color: $color-white;
   font-family: "Grava", Arial, Helvetica, sans-serif;
 }
 .item__link {
+  color: #ffffff;
+  font-size: 1.6rem;
 }
 .box__list {
 }
 .box__list__item {
 }
 .box__list__item__link {
+  color: #ffffff;
+  font-size: 1.6rem;
 }
 .social__list {
+  ul {
+    display: flex;
+    gap: 2.3rem;
+  }
 }
 .social__item {
 }
@@ -48,4 +57,32 @@
 .social__img {
 }
 .divider {
+  width: 100%;
+  height: 1px;
+  max-width: 1430px;
+  background-color: #ffffff;
+  margin-top: 5.5rem;
+  margin-bottom: 3rem;
+}
+
+.Alyasi-huquq {
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1150px) {
+}
+@media screen and (max-width: 500px) {
+  .footer__box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__box__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
