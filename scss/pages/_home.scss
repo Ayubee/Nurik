@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  // height: 100%;
   padding-bottom: 250px;
 }
 
@@ -167,6 +166,7 @@
   align-items: center;
   padding: 4rem 1.8rem 8.1rem 1.9rem;
   border-radius: 8px;
+  border: 1px solid transparent;
 }
 .grants__cards__title {
   font-weight: 600;
@@ -191,18 +191,29 @@
 }
 @media screen and (max-width: 500px) {
   .grants {
-    margin-bottom: 100rem;
-    background-size: cover;
+    margin-bottom: 50rem;
+    background-image: none;
   }
   .grants__title {
-    font-size: 5rem;
+    font-size: 4rem;
+    color: #292929;
     margin-bottom: 2rem;
   }
   .grants__subtitle {
+    color: #292929;
     text-align: center;
+    font-size: 2rem;
   }
   .grants__box {
     flex-direction: column;
     gap: 5rem;
   }
+
+  .grants__card {
+    border-color: black;
+  }
+}
+
+.gransts__bold {
+  font-weight: bold;
 }
